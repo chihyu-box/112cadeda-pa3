@@ -1,0 +1,21 @@
+BLIF Example: sample.blif
+.model sample
+.inputs a b c d e f g
+.outputs P Q R
+.names a b c d e f g P
+1----1- 1
+-1---1- 1
+1-----1 1
+--1---1 1
+1--11-- 1
+-1-11-- 1
+--111-- 1
+.names a b c e f Q
+1---1 1
+-1--1 1
+1-11- 1
+-111- 1
+.names a c d e R
+1-11 1
+-111 1
+.end

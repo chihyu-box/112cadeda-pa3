@@ -1,0 +1,28 @@
+文件說明
+/src  		程式碼
+/two_level_blif 測試資料
+run.sh		執行所有case (./run.sh)
+makefile	makefile
+README		本文件
+
+編譯方法
+在m11207432的資料夾底下輸入
+make
+
+執行方法
+在m11207432的資料夾底下輸入
+./bin/M11207432 [blif_file]
+
+例如:
+./bin/M11207432 5xp1.blif
+
+會在terminal產生以下輸出。
+Original literal count: 296
+Optimized literal count: 214
+Program end 28 ms.
+
+另外會自動產生兩份文件為model.lp和solution.txt，這是glpk自動產生的文件，無須理會
+
+
+
+
