@@ -20,9 +20,3 @@ make
 Original literal count: 296
 Optimized literal count: 214
 Program end 28 ms.
-
-另外會自動產生兩份文件為model.lp和solution.txt，這是glpk自動產生的文件，無須理會
-
-
-
-
